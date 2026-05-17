@@ -1,0 +1,90 @@
+[
+    {
+        "id": 1,
+        "name": "F. Scott Fitzgerald",
+        "title": "The Great Gatsby",
+        "price": 0,
+        "category": "Free",
+        "image": "/images/book1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "James Clear",
+        "title": "Atomic Habits",
+        "price": 20,
+        "category": "Self Improvement",
+        "image": "/images/book1.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Robert T. Kiyosaki",
+        "title": "Rich Dad Poor Dad",
+        "price": 50,
+        "category": "Finance",
+        "image": "/images/book1.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Morgan Housel",
+        "title": "The Psychology of Money",
+        "price": 0,
+        "category": "Free",
+        "image": "/images/book1.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Jay Shetty",
+        "title": "Think Like a Monk",
+        "price": 0,
+        "category": "Free",
+        "image": "/images/book1.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Héctor García & Francesc Miralles",
+        "title": "Ikigai: The Japanese Secret to a Long and Happy Life",
+        "price": 299,
+        "category": "Philosophy",
+        "image": "/images/book1.jpg"
+    },
+    {
+        "id": 7,
+        "name": "George Orwell",
+        "title": "1984",
+        "price": 279,
+        "category": "Dystopian",
+        "image": "/images/book1.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Harper Lee",
+        "title": "To Kill a Mockingbird",
+        "price": 20,
+        "category": "Free",
+        "image": "/images/book1.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Stephen R. Covey",
+        "title": "The 7 Habits of Highly Effective People",
+        "price": 450,
+        "category": "Self Help",
+        "image": "/images/book1.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Paulo Coelho",
+        "title": "The Alchemist",
+        "price": 299,
+        "category": "Fiction",
+        "image": "/images/book1.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Dale Carnegie",
+        "title": "How to Win Friends and Influence People",
+        "price": 0,
+        "category": "Free",
+        "image": "/images/book1.jpg"
+    }
+]
