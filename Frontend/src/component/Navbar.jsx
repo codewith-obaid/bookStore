@@ -44,16 +44,16 @@ const Navbar = () => {
   const navItem = (
     <>
       <li>
-        <Link to="/">Home</Link>
+        <a href="/">Home</a>
       </li>
       <li>
         <Link to="/course">Course</Link>
       </li>
       <li>
-        <Link to="/contact">Contact</Link>
+        <a>Contact</a>
       </li>
       <li>
-        <Link to="/about">About</Link>
+        <a>About</a>
       </li>
     </>
   );
