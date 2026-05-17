@@ -17,7 +17,7 @@ const Login = () => {
       password: data.password,
     };
     await axios
-      .post("http://localhost:4001/user/login", userInfo)
+      .post("https://bookstore-lp5p.onrender.com/user/login", userInfo)
       .then((res) => {
         console.log(res.data);
         if (res.data) {
@@ -33,7 +33,7 @@ const Login = () => {
         if (err.response) {
           console.log(err);
           toast.error("Error: " + err.response.data.message);
-          setTimeout(()=> {}, 3000);
+          setTimeout(() => {}, 3000);
         }
       });
   };
