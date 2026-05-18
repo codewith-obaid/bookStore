@@ -18,6 +18,10 @@
     "appId": "com.bookstore.app",
     "win": {
       "target": "nsis"
-    }
+    },
+    "files": [
+      "dist/**/*",
+      "main.js"
+    ]
   }
 }
