@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
-import axios from 'axios'
+import axios from "axios";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -12,9 +12,9 @@ const Freebook = () => {
     const getBook = async () => {
       try {
         const res = await axios.get("https://bookstore-lp5p.onrender.com/book");
-      
+
         setBook(res.data.filter((data) => data.category === "Free"));
-        console.log(data)
+        console.log(data);
         setBook(data);
       } catch (error) {
         console.log(error);
